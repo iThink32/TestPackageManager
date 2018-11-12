@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ExampleApp",
     dependencies: [
-        .package(url:"../Framework",.branch("master")),
+        .package(url:"../../Framework",.branch("master")),
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],

@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = /Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/Framework
+	fetch = +refs/*:refs/*
+	mirror = true
