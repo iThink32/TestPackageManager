@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/.build/x86_64-apple-macosx10.10/debug/ExampleApp.build/master.swiftdeps"
+  },
+  "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/Sources/ExampleApp/main.swift": {
+    "dependencies": "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/.build/x86_64-apple-macosx10.10/debug/ExampleApp.build/main.d",
+    "object": "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/.build/x86_64-apple-macosx10.10/debug/ExampleApp.build/main.swift.o",
+    "swiftmodule": "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/.build/x86_64-apple-macosx10.10/debug/ExampleApp.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/.build/x86_64-apple-macosx10.10/debug/ExampleApp.build/main.swiftdeps"
+  }
+}
