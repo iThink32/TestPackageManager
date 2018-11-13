@@ -4,20 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "ExampleApp",
+    name: "testApp",
     dependencies: [
-        .package(url:"../../Framework",.branch("master")),
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "git@github.com:iThink32/TestFrameworkExample.git", from:"1.0.0"),
+//        .package(url: "../Framework", from:"1.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "ExampleApp",
-            dependencies: ["Framework"]),
+            name: "testApp",
+            dependencies: ["testFramework"],
+            path: "Sources"),
         .testTarget(
-            name: "ExampleAppTests",
-            dependencies: ["ExampleApp"]),
+            name: "testAppTests",
+            dependencies: ["testApp"],
+            path: "Tests"),
     ]
 )

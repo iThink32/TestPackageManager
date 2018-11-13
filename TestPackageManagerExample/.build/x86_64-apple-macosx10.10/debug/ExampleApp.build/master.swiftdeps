@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "f215dd79fd1059cf8cbd9d33b0b8bab6"
-build_time: [1542027189, 83805000]
-inputs:
-  "/Users/n.ashashank/Desktop/Shashank/TestProjects/TestSwiftPackageManager/ExampleApp/Sources/ExampleApp/main.swift": [1542027167, 0]
