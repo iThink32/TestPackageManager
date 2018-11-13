@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "testFramework",
+        "repositoryURL": "git@github.com:iThink32/TestFrameworkExample.git",
+        "state": {
+          "branch": null,
+          "revision": "d86c619c232841b89dbf6117b202b1cd88cba52d",
+          "version": "1.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
